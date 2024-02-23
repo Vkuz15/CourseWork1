@@ -33,5 +33,9 @@ public class Main {
         System.out.println(" ");
 
         System.out.println("Среднее значение зарплаты в месяц = " + Employee.average(staff));
+
+        System.out.println(" ");
+
+        Employee.listFullName(staff);
     }
 }

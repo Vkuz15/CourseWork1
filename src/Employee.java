@@ -81,6 +81,13 @@ public class Employee {
         return (double) totalCosts(staff) / staff.length;
     }
 
+    public static void listFullName(Employee[] staff) {
+        System.out.println("Фамилии, Имена, Отчества сотрудников компании: \n");
+        for (Employee name:staff) {
+            System.out.println(name.getFullName());
+        }
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
