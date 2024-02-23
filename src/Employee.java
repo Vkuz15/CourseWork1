@@ -77,8 +77,8 @@ public class Employee {
         return idx;
     }
 
-    public static int average(Employee[] staff) {
-
+    public static double average(Employee[] staff) {
+        return (double) totalCosts(staff) / staff.length;
     }
 
     @Override
